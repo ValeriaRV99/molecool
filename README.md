@@ -16,6 +16,16 @@ To do a develempment install, clone this repository and type
 
 in the repository directory.
 
+This package requires 'numpy' and 'matplotlib'
+
+Features shouldbe develop on branch, use the command.
+
+"git checkout -b new_branch"
+
+To switch to an existing branch use
+
+"git checkout branch_main"
+
 ### Copyright
 
 Copyright (c) 2023, Valeria
