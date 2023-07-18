@@ -1,7 +1,7 @@
 """Provide the primary functions."""
 
 
-def canvas(with_attribution=True):
+def canvas(with_attribution:bool=True):
     """
     Placeholder function to show example docstring (NumPy format).
 
@@ -43,8 +43,27 @@ from mpl_toolkits.mplot3d import Axes3D
 # %matplotlib notebook
 
 
-def calculate_distance(rA, rB):
-    # This function calculates the distance between two points given as numpy arrays.
+def calculate_distance(rA: np.array, rB: np.array)->float:
+    """
+    Calculate the distance between two points.
+
+    Parameters
+    ----------
+    rA, rB: np.nparray
+        The coordinates of each points.
+    
+    Returns
+    -------
+    distance : float
+        The distance between two points.
+
+    Examples
+    --------
+    >>> r1 = np.array([0,0,0])
+    >>> r2 = np.array([0,0,0])
+    >>> calculate_distance(r1, r2)
+    0.1
+    """
     d = rA - rB
     dist = np.linalg.norm(d)
     return dist
