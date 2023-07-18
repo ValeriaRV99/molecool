@@ -7,6 +7,15 @@ molecool
 
 A Python package for analyzing
 
+A simple package for the 2023 MSF bootcamp.
+
+This repository is currently under development.
+To do a develempment install, clone this repository and type
+
+'pip intall -e .'
+
+in the repository directory.
+
 ### Copyright
 
 Copyright (c) 2023, Valeria
