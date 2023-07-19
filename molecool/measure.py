@@ -21,7 +21,7 @@ def calculate_distance(rA: np.array, rB: np.array)->float:
     Examples
     --------
     >>> r1 = np.array([0,0,0])
-    >>> r2 = np.array([0,0,0])
+    >>> r2 = np.array([0,0.1,0])
     >>> calculate_distance(r1, r2)
     0.1
     """
